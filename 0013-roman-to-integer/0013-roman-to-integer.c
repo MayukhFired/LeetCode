@@ -15,15 +15,18 @@ int romanValue(char c){
 
 int romanToInt(char* s) {
     int total = 0;
-    int len = strlen(s);
+    int i = 0;
 
-    for(int i = 0; i < len; i++){
+    while(s[i] != '\0'){
         int current = romanValue(s[i]);
+        int next = romanValue(s[i + 1]);
 
-        if(i < len - 1 && current < romanValue(s[i + 1])){
-            total -= current;
+        if(current < next){
+            total += (next - current);
+            i += 2;
         }else{
             total += current;
+            i++;
         }
     }
 
