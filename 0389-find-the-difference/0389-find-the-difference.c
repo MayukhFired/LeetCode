@@ -10,4 +10,5 @@ char findTheDifference(char* s, char* t) {
     }
 
     return result;
+    result = 0;
 }
