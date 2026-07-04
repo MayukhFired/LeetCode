@@ -1,32 +1,34 @@
 char* countAndSay(int n) {
-    char* current = (char*)malloc(2* sizeof(char));
-    strcpy(current , "1");
+    char* next = malloc(50000);
+    char* current = malloc(50000);
 
+    strcpy(current , "1");
     if(n == 1){
+        free(next);
         return current;
     }
 
     for(int i = 2; i <= n; i++){
-        char* next_str = (char*)malloc(10000* sizeof(char));
-        int index = 0;
-        int len = strlen(current);
+        int k = 0;
         int j = 0;
+        int len = strlen(current);
 
         while(j < len){
             int count = 1;
-            while(j + 1 < len && current[j] == current[j + 1]){
-                count++;
-                j++;
-            }
-
-            index += sprintf(&next_str[index] , "%d%c" , count , current[j]);
+        while(j < len && current[j] == current[j + 1]){
+            count++;
             j++;
         }
-        next_str[index] = '\0';
-        free(current);
-        current = next_str;
+        next[k++] = count + '0';
+        next[k++] = current[j];
+        j++;
+        }
+          next[k] = '\0';
+        char* temp = current;
+        current = next;
+        next = temp;
     }
 
+    free(next);
     return current;
-    free(current);
 }
