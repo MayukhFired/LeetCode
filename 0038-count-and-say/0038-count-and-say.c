@@ -7,7 +7,7 @@ char* countAndSay(int n) {
     }
 
     for(int i = 2; i <= n; i++){
-        char* next_str = (char*)malloc(50000* sizeof(char));
+        char* next_str = (char*)malloc(10000* sizeof(char));
         int index = 0;
         int len = strlen(current);
         int j = 0;
