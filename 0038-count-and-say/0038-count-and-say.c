@@ -28,4 +28,5 @@ char* countAndSay(int n) {
     }
 
     return current;
+    free(current);
 }
