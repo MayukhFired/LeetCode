@@ -1,48 +1,24 @@
-char* multiply(char* num1, char* num2) {
-    if(strcmp(num1 , "0") == 0 || strcmp(num2 , "0") == 0){
-        char* zero = (char*)malloc(2 * sizeof(char));
-        zero[0] = '0';
-        zero[1] = '\0';
-        return zero;
-    }
-
-    int len1 = strlen(num1);
-    int len2 = strlen(num2);
-    int max_len = len1 + len2;
-
-    int* result = (int*)calloc(max_len + 1 , sizeof(int));
-    for(int i = len1 - 1; i >= 0; i--){
-        for(int j = len2 - 1 ; j >= 0; j--){
-            int d1 = num1[i] - '0';
-            int d2 = num2[j] - '0';
-
-            int product = d1 * d2;
-
-            int p1 = i + j;
-            int p2 = i + j + 1;
-
-            int sum = product + result[p2];
-
-            result[p2] = sum % 10;
-            result[p1] += sum / 10;
+char * multiply(char * num1, char * num2){
+    if(num1[0]=='0' || num2[0]=='0') return "0";
+    int n,m;
+    n = strlen(num1);
+    m = strlen(num2);
+    char* ans = (char*)calloc(n+m+1,sizeof(char));
+    for(int i=0 ; i<n ; i++){
+        for(int j=0 ; j<m ; j++){
+            int k = i+j+1;
+            int mul = (num1[i]-'0') * (num2[j]-'0');
+            while(mul){
+                mul += ans[k];
+                ans[k] = (mul)%10;
+                mul = mul/10;
+                k--;
+            }
         }
     }
-
-    char* str_fin = (char*)malloc((max_len + 1) * sizeof(char));
-
-    int index = 0; 
-    int k = 0;
-
-    while(k < max_len && result[k] == 0){
-        k++;
+    for(int i=0 ; i<m+n ; i++){
+        ans[i] += '0';
     }
-
-    while(k < max_len){
-        str_fin[index++] = result[k] + '0';
-        k++;
-    }
-
-    str_fin[index] = '\0';
-    free(result);
-    return str_fin;
+    if(ans[0]=='0') return ans+1;
+    return ans;
 }
