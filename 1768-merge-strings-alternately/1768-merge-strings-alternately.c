@@ -10,13 +10,23 @@ char * mergeAlternately(char * word1, char * word2){
     int j = 0; 
     int k = 0;
 
-    while(i < len_1 && j < len_2){
-        result[k++] = word1[i++];
-        result[k++] = word2[j++];
-    }
+    while(i < len_1 || j < len_2){
+        if(i < len_1){
+            result[k++] = word1[i++];
+        }
 
-    while(i < len_1) result[k++] = word1[i++];
-    while(j < len_2) result[k++] = word2[j++];
+        if(j < len_2){
+            result[k++] = word2[j++];
+        }
+    }
+// Another method to solve it 
+//    while(i < len_1){
+//         result[k++] = word1[i++];
+//     }
+
+//     while(j < len_2){
+//         result[k++] = word2[j++];
+//     }
 
     result[k] = '\0';
 
