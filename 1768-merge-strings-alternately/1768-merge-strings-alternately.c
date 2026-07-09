@@ -6,9 +6,7 @@ char * mergeAlternately(char * word1, char * word2){
     int returnsize = len_1 + len_2 + 1;
     char* result = (char*)malloc(returnsize *sizeof(char));
 
-    int i = 0; 
-    int j = 0; 
-    int k = 0;
+    int i = 0 , j = 0 , k = 0;
 
     while(i < len_1 || j < len_2){
         if(i < len_1){
