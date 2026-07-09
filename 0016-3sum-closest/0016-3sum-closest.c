@@ -24,8 +24,10 @@ int threeSumClosest(int* nums, int numsSize, int target) {
 
             if(sum < target){
                 left++;
-            }else{
+            }else if(sum > target){
                 right--;
+            }else{
+                return target;
             }
         }
     }
