@@ -8,7 +8,8 @@ int maxProfit(int* prices, int pricesSize) {
     for(int i = 1; i < pricesSize; i++){
         if(prices[i] < minprice){
             minprice = prices[i];
-        }else if(prices[i] - minprice > maxprofit){
+        }
+        if(prices[i] - minprice > maxprofit){
             maxprofit = prices[i] - minprice;
         }
     }
