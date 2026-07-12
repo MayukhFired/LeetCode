@@ -22,9 +22,9 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     *returnColumnSizes = (int*)malloc(intervalsSize * sizeof(int));
 
     int count = 0;
-    merged[count] = (int*)malloc(2 * sizeof(int));
-    merged[count][0] = intervals[0][0];
-    merged[count][1] = intervals[0][1];
+    merged[0] = (int*)malloc(2 * sizeof(int));
+    merged[0][0] = intervals[0][0];
+    merged[0][1] = intervals[0][1];
     (*returnColumnSizes)[count] = 2;
     count++;
 
