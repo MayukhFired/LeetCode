@@ -26,7 +26,7 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     merged[0][0] = intervals[0][0];
     merged[0][1] = intervals[0][1];
     (*returnColumnSizes)[0] = 2;
-    count = 1;
+    count++;
 
     for(int i = 1; i < intervalsSize; i++){
 
