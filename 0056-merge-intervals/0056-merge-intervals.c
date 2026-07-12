@@ -29,10 +29,9 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     count++;
 
     for(int i = 1; i < intervalsSize; i++){
-        int last = merged[count-1][1];
 
-        if(intervals[i][0] <= last){
-            if(intervals[i][1] > last){
+        if(intervals[i][0] <=  merged[count-1][1]){
+            if(intervals[i][1] >  merged[count-1][1]){
                 merged[count - 1][1] = intervals[i][1];
             }
         }else{
