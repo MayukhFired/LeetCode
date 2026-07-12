@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/MayukhFired/LeetCode/tree/master/0035-search-insert-position) |
 | [0045-jump-game-ii](https://github.com/MayukhFired/LeetCode/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/MayukhFired/LeetCode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/MayukhFired/LeetCode/tree/master/0066-plus-one) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MayukhFired/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/MayukhFired/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/MayukhFired/LeetCode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/MayukhFired/LeetCode/tree/master/0043-multiply-strings) |
+| [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/MayukhFired/LeetCode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/MayukhFired/LeetCode/tree/master/0070-climbing-stairs) |
@@ -142,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/MayukhFired/LeetCode/tree/master/0238-product-of-array-except-self) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
