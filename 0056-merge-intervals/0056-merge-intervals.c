@@ -5,12 +5,9 @@
  */
 
  int compare(const void *a , const void *b){
-    int startA = (*(int**)a)[0];
-    int startB = (*(int**)b)[0];
-
-    if(startA < startB) return -1;
-    if(startA > startB) return 1;
-    return 0;
+    int *startA = *(int**)a;
+    int *startB = *(int**)b;
+    return startA[0] - startB[0];
  }
 
 int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* returnSize, int** returnColumnSizes) {
