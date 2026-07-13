@@ -15,14 +15,14 @@ int* sortedSquares(int* nums, int numsSize, int* returnSize) {
     int* result = (int*)malloc(numsSize * sizeof(int));
 
     while(left <= right){
-        int square_left = nums[left] * nums[left];
-        int square_right = nums[right] * nums[right];
+        // int square_left = nums[left] * nums[left];
+        // int square_right = nums[right] * nums[right];
 
-        if(square_left > square_right){
-            result[index] = square_left;
+        if(nums[left] * nums[left] > nums[right] * nums[right]){
+            result[index] = nums[left] * nums[left];
             left++;
         }else{
-            result[index] = square_right;
+            result[index] = nums[right] * nums[right];
             right--;
         }
         index--;
