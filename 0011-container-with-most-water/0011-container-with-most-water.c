@@ -13,6 +13,7 @@ int maxArea(int* height, int heightSize) {
             ans = (ans > temp ? ans : temp);
             right--;
         }
-    }    
+    }
+
     return ans;
 }
