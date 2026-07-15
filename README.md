@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/MayukhFired/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/MayukhFired/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -182,4 +183,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/MayukhFired/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
