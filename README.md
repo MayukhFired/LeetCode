@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
 | [2239-find-closest-number-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/2239-find-closest-number-to-zero) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/MayukhFired/LeetCode/tree/master/0392-is-subsequence) |
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/MayukhFired/LeetCode/tree/master/1768-merge-strings-alternately) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## String Matching
 |  |
 | ------- |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/MayukhFired/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -134,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/MayukhFired/LeetCode/tree/master/0682-baseball-game) |
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -163,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/MayukhFired/LeetCode/tree/master/0056-merge-intervals) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Sliding Window
 |  |
 | ------- |
@@ -190,4 +195,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/MayukhFired/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 <!---LeetCode Topics End-->
