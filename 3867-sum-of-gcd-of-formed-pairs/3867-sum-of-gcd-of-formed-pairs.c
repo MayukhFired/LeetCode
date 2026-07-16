@@ -44,12 +44,8 @@ long long gcdSum(int* nums, int numsSize) {
     int left = 0;
     int right = numsSize - 1;
     long long sum = 0;
-    while(left <= right){
-        if(left == right){
-        break;
-        }else{
-            sum += gcd(prefixGcd[left] , prefixGcd[right]);
-        }
+    while(left < right){
+        sum += gcd(prefixGcd[left] , prefixGcd[right]);
         left++;
         right--;
     }
