@@ -15,10 +15,11 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
         if(current->val == current->next->val){
             struct ListNode* duplicate = current->next;
             current->next = current->next->next;
-              free(duplicate);
+            free(duplicate);
         }else{
             current = current->next;
         }
     }
+
     return head;
 }
