@@ -21,8 +21,7 @@ class Solution:
             if abs(num) < abs(closest):
                 closest = num
             # Handle ties by choosing the larger number
-            elif abs(num) == abs(closest):
-                if num > closest:
+            elif abs(num) == abs(closest) and num > closest:
                     closest = num
                     
         return closest
