@@ -6,6 +6,10 @@
  * };
  */
 bool hasCycle(struct ListNode *head) {
+
+    if(head == NULL){
+        return false;
+    }
     struct ListNode *slow = head;
     struct ListNode *fast = head;
 
