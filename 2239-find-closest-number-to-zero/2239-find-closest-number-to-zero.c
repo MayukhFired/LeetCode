@@ -1,14 +1,13 @@
 int findClosestNumber(int* nums, int numsSize) {
     int closest = nums[0];
     for(int i = 0; i < numsSize; i++){
-        if(abs(nums[i]) < abs(closest)){
-            closest = nums[i];
-        }else if(abs(nums[i]) == abs(closest)){
-            if(nums[i] > closest){
+        if(abs(closest) > abs(nums[i])){
+            closest =nums[i];
+        }else if(abs(closest) == abs(nums[i])){
+            if(closest < nums[i]){
                 closest = nums[i];
             }
         }
     }
-
     return closest;
 }
