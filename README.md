@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/MayukhFired/LeetCode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/MayukhFired/LeetCode/tree/master/0739-daily-temperatures) |
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/MayukhFired/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2239-find-closest-number-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/2239-find-closest-number-to-zero) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/MayukhFired/LeetCode/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/MayukhFired/LeetCode/tree/master/0682-baseball-game) |
+| [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/MayukhFired/LeetCode/tree/master/0054-spiral-matrix) |
+| [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
 ## Monotonic Stack
 |  |
 | ------- |
