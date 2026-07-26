@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/MayukhFired/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/MayukhFired/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0605-can-place-flowers](https://github.com/MayukhFired/LeetCode/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/MayukhFired/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/MayukhFired/LeetCode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/MayukhFired/LeetCode/tree/master/0739-daily-temperatures) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/MayukhFired/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/MayukhFired/LeetCode/tree/master/0055-jump-game) |
 | [0316-remove-duplicate-letters](https://github.com/MayukhFired/LeetCode/tree/master/0316-remove-duplicate-letters) |
+| [0605-can-place-flowers](https://github.com/MayukhFired/LeetCode/tree/master/0605-can-place-flowers) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/MayukhFired/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 ## Sorting
 |  |
