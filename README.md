@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/MayukhFired/LeetCode/tree/master/0125-valid-palindrome) |
 | [0316-remove-duplicate-letters](https://github.com/MayukhFired/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/MayukhFired/LeetCode/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/MayukhFired/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/MayukhFired/LeetCode/tree/master/0392-is-subsequence) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/MayukhFired/LeetCode/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/MayukhFired/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MayukhFired/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/MayukhFired/LeetCode/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/MayukhFired/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/MayukhFired/LeetCode/tree/master/0392-is-subsequence) |
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/MayukhFired/LeetCode/tree/master/1768-merge-strings-alternately) |
