@@ -3,21 +3,19 @@ int isVowel(char c){
 }
 
 int maxVowels(char* s, int k) {
-    int curr_vowels = 0;
-    for(int i = 0; i < k; i++){
+    int count = 0;
+    for(int i = 0; i < k ; i++){
         if(isVowel(s[i])){
-            curr_vowels++;
+            count++;
         }
     }
-    int max_vowels = curr_vowels;
-    if(k == max_vowels) return k;
-
-    for(int i = k; i < strlen(s); i++){
-        curr_vowels += isVowel(s[i]) - isVowel(s[i - k]);
-        if(max_vowels < curr_vowels){
-            max_vowels = curr_vowels;
+    int max_count = count;
+    for(int i = k ; i < strlen(s); i++){
+        count = count - isVowel(s[i - k]) + isVowel(s[i]);
+        if(max_count < count){
+            max_count = count;
         }
-        if(max_vowels == k) return k;
+        if(max_count == k) return k;
     }
-    return max_vowels;
+    return max_count;
 }
