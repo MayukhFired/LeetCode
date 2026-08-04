@@ -15,7 +15,6 @@ int maxVowels(char* s, int k) {
         if(max_count < count){
             max_count = count;
         }
-        if(max_count == k) return k;
     }
     return max_count;
 }
