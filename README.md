@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1732-find-the-highest-altitude](https://github.com/MayukhFired/LeetCode/tree/master/1732-find-the-highest-altitude) |
 | [1929-concatenation-of-array](https://github.com/MayukhFired/LeetCode/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/MayukhFired/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2239-find-closest-number-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/2239-find-closest-number-to-zero) |
 | [3312-sorted-gcd-pair-queries](https://github.com/MayukhFired/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MayukhFired/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/MayukhFired/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/MayukhFired/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/MayukhFired/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/MayukhFired/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
