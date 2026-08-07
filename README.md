@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/MayukhFired/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2239-find-closest-number-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/2239-find-closest-number-to-zero) |
+| [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 | [3312-sorted-gcd-pair-queries](https://github.com/MayukhFired/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/MayukhFired/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/MayukhFired/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/MayukhFired/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
+| [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/MayukhFired/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/MayukhFired/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/MayukhFired/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1929-concatenation-of-array](https://github.com/MayukhFired/LeetCode/tree/master/1929-concatenation-of-array) |
+| [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/MayukhFired/LeetCode/tree/master/0054-spiral-matrix) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
+| [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 ## Monotonic Stack
 |  |
 | ------- |
