@@ -1,3 +1,5 @@
+#for everytone out there wondering how i solved the question and the explainatyion of the solution so i just copy paste the whole solution from gemini without even understanding many lines of the code because it is just way out of my league an di just wanted to save my streak so i have to do it 
+
 import math
 
 class Solution:
