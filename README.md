@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/MayukhFired/LeetCode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1768-merge-strings-alternately](https://github.com/MayukhFired/LeetCode/tree/master/1768-merge-strings-alternately) |
+| [2390-removing-stars-from-a-string](https://github.com/MayukhFired/LeetCode/tree/master/2390-removing-stars-from-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MayukhFired/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/MayukhFired/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/MayukhFired/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/MayukhFired/LeetCode/tree/master/0739-daily-temperatures) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/MayukhFired/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
+| [2390-removing-stars-from-a-string](https://github.com/MayukhFired/LeetCode/tree/master/2390-removing-stars-from-a-string) |
 ## Linked List
 |  |
 | ------- |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-build-an-array-with-stack-operations](https://github.com/MayukhFired/LeetCode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1929-concatenation-of-array](https://github.com/MayukhFired/LeetCode/tree/master/1929-concatenation-of-array) |
 | [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
+| [2390-removing-stars-from-a-string](https://github.com/MayukhFired/LeetCode/tree/master/2390-removing-stars-from-a-string) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MayukhFired/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
