@@ -1,18 +1,11 @@
+@cache
+def rec(i):
+    if i == 0: return False
 
+    for j in range(isqrt(i), 0, -1):
+        if not rec(i-j**2): return True 
+    return False
+ar = [rec(i) for i in range(100001)]
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:
-        dp = {}
-        def solve(remain: int) -> bool:
-            if remain <= 0:
-                return 0
-            if remain in dp:
-                return dp[remain]
-            i = 1
-            while i * i <= remain:
-                if not solve(remain - i * i):
-                    dp[remain] = True
-                    return True
-                i += 1
-            dp[remain] = False
-            return False
-        return solve(n)
+        return ar[n]
