@@ -1,5 +1,5 @@
 
-#define Max_calls 100001
+#define Max_calls 10001
 
 typedef struct {
     int queue[Max_calls];
