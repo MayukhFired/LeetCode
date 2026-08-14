@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/MayukhFired/LeetCode/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MayukhFired/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0278-first-bad-version](https://github.com/MayukhFired/LeetCode/tree/master/0278-first-bad-version) |
 | [0704-binary-search](https://github.com/MayukhFired/LeetCode/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/MayukhFired/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/MayukhFired/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -472,4 +473,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/MayukhFired/LeetCode/tree/master/2213-longest-substring-of-one-repeating-character) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/MayukhFired/LeetCode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
