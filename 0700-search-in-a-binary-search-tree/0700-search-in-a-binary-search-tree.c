@@ -7,13 +7,22 @@
  * };
  */
 struct TreeNode* searchBST(struct TreeNode* root, int val) {
-    struct TreeNode* current = root;
-    while(current != NULL && current->val != val){
-        if(val < current->val){
-            current = current->left;
-        }else{
-            current = current->right;
-        }
+    //Iterative Method
+    // struct TreeNode* current = root;
+    // while(current != NULL && current->val != val){
+    //     if(val < current->val){
+    //         current = current->left;
+    //     }else{
+    //         current = current->right;
+    //     }
+    // }
+    // return current;
+    //Recursive Method
+    if(root == NULL || root->val == val){
+        return root;
     }
-    return current;
+    if(root->val > val){
+        return searchBST(root->left , val);
+    }
+    return searchBST(root->right , val);
 }
