@@ -492,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/MayukhFired/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0547-number-of-provinces](https://github.com/MayukhFired/LeetCode/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/MayukhFired/LeetCode/tree/master/0841-keys-and-rooms) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/MayukhFired/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [3310-remove-methods-from-project](https://github.com/MayukhFired/LeetCode/tree/master/3310-remove-methods-from-project) |
@@ -499,12 +500,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/MayukhFired/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0547-number-of-provinces](https://github.com/MayukhFired/LeetCode/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/MayukhFired/LeetCode/tree/master/0841-keys-and-rooms) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/MayukhFired/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [3310-remove-methods-from-project](https://github.com/MayukhFired/LeetCode/tree/master/3310-remove-methods-from-project) |
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/MayukhFired/LeetCode/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/MayukhFired/LeetCode/tree/master/0841-keys-and-rooms) |
 | [3310-remove-methods-from-project](https://github.com/MayukhFired/LeetCode/tree/master/3310-remove-methods-from-project) |
 ## Backtracking
@@ -574,5 +577,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/MayukhFired/LeetCode/tree/master/0547-number-of-provinces) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/MayukhFired/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 <!---LeetCode Topics End-->
