@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/MayukhFired/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/MayukhFired/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0390-elimination-game](https://github.com/MayukhFired/LeetCode/tree/master/0390-elimination-game) |
 | [0394-decode-string](https://github.com/MayukhFired/LeetCode/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/MayukhFired/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/MayukhFired/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/MayukhFired/LeetCode/tree/master/0189-rotate-array) |
 | [0367-valid-perfect-square](https://github.com/MayukhFired/LeetCode/tree/master/0367-valid-perfect-square) |
+| [0390-elimination-game](https://github.com/MayukhFired/LeetCode/tree/master/0390-elimination-game) |
 | [0486-predict-the-winner](https://github.com/MayukhFired/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/MayukhFired/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
