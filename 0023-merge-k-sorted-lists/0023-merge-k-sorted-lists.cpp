@@ -16,7 +16,7 @@ struct compare{
 };
 
 class Solution {
-public:
+public: 
     //This is the solution which uses Divide and Conquer rule to solve this question 
     //ListNode* mergeTwo(ListNode* l1 , ListNode* l2){
     //     ListNode dummy;
@@ -49,7 +49,8 @@ public:
     //         interval *= 2;
     //     }
     //     return lists[0];
-
+    
+    //This code uses priority queue to solve teh problem 
         priority_queue<ListNode* , vector<ListNode*> , compare> min_heap;
 
         for(ListNode* root : lists){
