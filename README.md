@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MayukhFired/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MayukhFired/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0136-single-number](https://github.com/MayukhFired/LeetCode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MayukhFired/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/MayukhFired/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MayukhFired/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
+| [0136-single-number](https://github.com/MayukhFired/LeetCode/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/MayukhFired/LeetCode/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [1386-cinema-seat-allocation](https://github.com/MayukhFired/LeetCode/tree/master/1386-cinema-seat-allocation) |
