@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
+| [0338-counting-bits](https://github.com/MayukhFired/LeetCode/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [1386-cinema-seat-allocation](https://github.com/MayukhFired/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/MayukhFired/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/MayukhFired/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MayukhFired/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MayukhFired/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0338-counting-bits](https://github.com/MayukhFired/LeetCode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/MayukhFired/LeetCode/tree/master/0392-is-subsequence) |
 | [0486-predict-the-winner](https://github.com/MayukhFired/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
