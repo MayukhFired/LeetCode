@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2029-stone-game-ix](https://github.com/MayukhFired/LeetCode/tree/master/2029-stone-game-ix) |
 | [2057-smallest-index-with-equal-value](https://github.com/MayukhFired/LeetCode/tree/master/2057-smallest-index-with-equal-value) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/MayukhFired/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
+| [2094-finding-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/MayukhFired/LeetCode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2239-find-closest-number-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/2239-find-closest-number-to-zero) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/MayukhFired/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/MayukhFired/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2094-finding-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/MayukhFired/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/MayukhFired/LeetCode/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/MayukhFired/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
+| [2094-finding-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [3483-unique-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Two Pointers
 |  |
@@ -422,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/MayukhFired/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2094-finding-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/MayukhFired/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/MayukhFired/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/MayukhFired/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -510,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2094-finding-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/MayukhFired/LeetCode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/MayukhFired/LeetCode/tree/master/3499-maximize-active-section-with-trade-i) |
