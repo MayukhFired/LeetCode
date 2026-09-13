@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/MayukhFired/LeetCode/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/MayukhFired/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/MayukhFired/LeetCode/tree/master/0739-daily-temperatures) |
+| [0835-image-overlap](https://github.com/MayukhFired/LeetCode/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/MayukhFired/LeetCode/tree/master/0877-stone-game) |
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/MayukhFired/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/MayukhFired/LeetCode/tree/master/0054-spiral-matrix) |
+| [0835-image-overlap](https://github.com/MayukhFired/LeetCode/tree/master/0835-image-overlap) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
 | [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/MayukhFired/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
