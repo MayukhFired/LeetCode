@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/MayukhFired/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/MayukhFired/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MayukhFired/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/MayukhFired/LeetCode/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/MayukhFired/LeetCode/tree/master/0217-contains-duplicate) |
 | [0228-summary-ranges](https://github.com/MayukhFired/LeetCode/tree/master/0228-summary-ranges) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/MayukhFired/LeetCode/tree/master/0013-roman-to-integer) |
 | [0041-first-missing-positive](https://github.com/MayukhFired/LeetCode/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/MayukhFired/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MayukhFired/LeetCode/tree/master/0217-contains-duplicate) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/MayukhFired/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/MayukhFired/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/MayukhFired/LeetCode/tree/master/0217-contains-duplicate) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [0628-maximum-product-of-three-numbers](https://github.com/MayukhFired/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -530,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [2029-stone-game-ix](https://github.com/MayukhFired/LeetCode/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/MayukhFired/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -542,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/MayukhFired/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/MayukhFired/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/MayukhFired/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
 ## Enumeration
 |  |
 | ------- |
@@ -721,4 +726,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/MayukhFired/LeetCode/tree/master/0075-sort-colors) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
