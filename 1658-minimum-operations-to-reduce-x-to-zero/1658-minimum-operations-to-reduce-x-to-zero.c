@@ -18,7 +18,7 @@ int minOperations(int* nums, int numsSize, int x) {
     }
     for(int right = 0; right < numsSize; right++){
         curr_sum += nums[right];
-        while(curr_sum > k && left <= right){
+        while(curr_sum > k){
             curr_sum -= nums[left++];
         }
         if(curr_sum == k){
