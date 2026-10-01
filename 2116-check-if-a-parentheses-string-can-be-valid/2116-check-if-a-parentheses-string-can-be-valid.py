@@ -1,22 +1,46 @@
 class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:
-        if len(s) % 2 != 0:
+        # if len(s) % 2 != 0:
+        #     return False
+        # balance = 0
+
+        # for i in range(len(s)):
+        #     if locked[i] == '0' or s[i] == '(':
+        #         balance += 1
+        #     else:
+        #         balance -= 1
+        #     if balance < 0:
+        #         return False
+        # balance = 0
+        # for i in range(len(s) - 1, -1 , -1):
+        #     if locked[i] == '0' or s[i] == ')':
+        #         balance += 1
+        #     else:
+        #         balance -= 1
+        #     if balance < 0:
+        #         return False
+        # return True
+
+        if len(s) % 2 == 1:
             return False
-        balance = 0
+        stack_locked = []
+        stack_unlocked = []
 
         for i in range(len(s)):
-            if locked[i] == '0' or s[i] == '(':
-                balance += 1
+            if locked[i] == '0':
+                stack_unlocked.append(i)
+            elif s[i] == '(':
+                stack_locked.append(i)
             else:
-                balance -= 1
-            if balance < 0:
-                return False
-        balance = 0
-        for i in range(len(s) - 1, -1 , -1):
-            if locked[i] == '0' or s[i] == ')':
-                balance += 1
-            else:
-                balance -= 1
-            if balance < 0:
-                return False
+                if stack_locked:
+                    stack_locked.pop()
+                elif stack_unlocked:
+                    stack_unlocked.pop()
+                else:
+                    return False
+        while stack_locked and stack_unlocked and stack_locked[-1] < stack_unlocked[-1]:
+            stack_locked.pop()
+            stack_unlocked.pop()
+        if stack_locked:
+            return False
         return True
