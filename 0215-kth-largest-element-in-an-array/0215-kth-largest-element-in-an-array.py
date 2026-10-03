@@ -1,3 +1,4 @@
+import numpy as np
 class Solution:
     def findKthLargest(self, nums: list[int], k: int) -> int:
         # min_heap = nums[:k]
@@ -8,17 +9,22 @@ class Solution:
         #         heapq.heappushpop(min_heap , num)
         # return min_heap[0]
 
-        pivot = random.choice(nums)
+# ------------------------------------------------------------------------
 
-        left = [x for x in nums if x > pivot]
-        mid = [x for x in nums if x == pivot]
-        right = [x for x in nums if x < pivot]
+        # pivot = random.choice(nums)
 
-        L , M = len(left) , len(mid)
+        # left = [x for x in nums if x > pivot]
+        # mid = [x for x in nums if x == pivot]
+        # right = [x for x in nums if x < pivot]
 
-        if k <= L:
-            return self.findKthLargest(left , k)
-        elif k <= L + M:
-            return pivot
-        else:
-            return self.findKthLargest(right , k - L - M)
+        # L , M = len(left) , len(mid)
+
+        # if k <= L:
+        #     return self.findKthLargest(left , k)
+        # elif k <= L + M:
+        #     return pivot
+        # else:
+        #     return self.findKthLargest(right , k - L - M)
+
+# --------------------------------------------------------------------------------
+        return int(np.partition(nums , -k)[-k])
