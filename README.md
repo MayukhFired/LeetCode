@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/MayukhFired/LeetCode/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/MayukhFired/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/MayukhFired/LeetCode/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/MayukhFired/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-largest-number-at-least-twice-of-others](https://github.com/MayukhFired/LeetCode/tree/master/0747-largest-number-at-least-twice-of-others) |
 | [0835-image-overlap](https://github.com/MayukhFired/LeetCode/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/MayukhFired/LeetCode/tree/master/0877-stone-game) |
@@ -461,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/MayukhFired/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/MayukhFired/LeetCode/tree/master/0509-fibonacci-number) |
 | [0678-valid-parenthesis-string](https://github.com/MayukhFired/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0746-min-cost-climbing-stairs](https://github.com/MayukhFired/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0877-stone-game](https://github.com/MayukhFired/LeetCode/tree/master/0877-stone-game) |
 | [0940-distinct-subsequences-ii](https://github.com/MayukhFired/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/MayukhFired/LeetCode/tree/master/1140-stone-game-ii) |
