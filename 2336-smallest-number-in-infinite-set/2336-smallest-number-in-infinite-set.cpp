@@ -1,10 +1,9 @@
 class SmallestInfiniteSet {
 private:
-    int curr_smallest;
+    int curr_smallest = 1;
     set<int> added_back;
 public:
     SmallestInfiniteSet() {
-        curr_smallest = 1;
     }
     
     int popSmallest() {
