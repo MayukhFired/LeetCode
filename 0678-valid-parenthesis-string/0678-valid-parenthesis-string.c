@@ -1,3 +1,5 @@
+
+// 1---------------------------------------------------------------------------------1
 // bool isValid(int index , int openCount , const char* s , int len , int** memo){
 //     if(index == len){
 //         return (openCount == 0);
@@ -24,8 +26,10 @@
 //     }
 //     return memo[index][openCount] = valid;
 // }
+//  1-------------------------------------------------------------------------------1
 
 bool checkValidString(char* s) {
+    // 1-----------------------------------------------------------1
     // int len = strlen(s);
     // if(len == 0){
     //     return true;
@@ -45,43 +49,73 @@ bool checkValidString(char* s) {
 
     // free(memo);
     // return res;
+    // 1-------------------------------------------------------------1
 
-    int n = strlen(s);
-    int* stack = (int*)malloc(n * sizeof(int));
-    int* star = (int*)malloc(n * sizeof(int));
-    int top = -1;
-    int starttop = -1;
+    // 2-------------------------------------------------------------2
+    // int n = strlen(s);
+    // int* stack = (int*)malloc(n * sizeof(int));
+    // int* star = (int*)malloc(n * sizeof(int));
+    // int top = -1;
+    // int starttop = -1;
 
-    for(int i = 0; i < n; i++){
-        char ch = s[i];
-        if(ch == '('){
-            stack[++top] = i;
-        }else if(ch == '*'){
-            star[++starttop] = i;
-        }else{
-            if(top >= 0){
-                top--;
-            }else if(starttop >= 0){
-                starttop--;
-            }else{
-                free(stack);
-                free(star);
-                return false;
-            }
+    // for(int i = 0; i < n; i++){
+    //     char ch = s[i];
+    //     if(ch == '('){
+    //         stack[++top] = i;
+    //     }else if(ch == '*'){
+    //         star[++starttop] = i;
+    //     }else{
+    //         if(top >= 0){
+    //             top--;
+    //         }else if(starttop >= 0){
+    //             starttop--;
+    //         }else{
+    //             free(stack);
+    //             free(star);
+    //             return false;
+    //         }
+    //     }
+    // }
+
+    // while(top >= 0 && starttop >= 0){
+    //     if(stack[top] > star[starttop]){
+    //         free(stack);
+    //         free(star);
+    //         return false;
+    //     }
+    //     top--;
+    //     starttop--;
+    // }
+
+    // free(stack);
+    // free(star);
+    // return top == -1;
+    // 2--------------------------------------------------------2
+
+    int min_open = 0;
+    int max_open = 0;
+
+    for(int i = 0; i < strlen(s); i++){
+        char curr = s[i];
+        if(curr == '('){
+            min_open++;
+            max_open++;
+        }else if(curr == ')'){
+            min_open--;
+            max_open--;
+        }else if(curr == '*'){
+            min_open--;
+            max_open++;
         }
-    }
 
-    while(top >= 0 && starttop >= 0){
-        if(stack[top] > star[starttop]){
-            free(stack);
-            free(star);
+        if(max_open < 0){
             return false;
         }
-        top--;
-        starttop--;
+
+        if(min_open < 0){
+            min_open = 0;
+        }
     }
 
-    free(stack);
-    free(star);
-    return top == -1;
+    return min_open == 0;
 }
