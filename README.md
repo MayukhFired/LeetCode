@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/MayukhFired/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2094-finding-3-digit-even-numbers](https://github.com/MayukhFired/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/2215-find-the-difference-of-two-arrays) |
+| [2336-smallest-number-in-infinite-set](https://github.com/MayukhFired/LeetCode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/MayukhFired/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/MayukhFired/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -614,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/MayukhFired/LeetCode/tree/master/0155-min-stack) |
 | [0933-number-of-recent-calls](https://github.com/MayukhFired/LeetCode/tree/master/0933-number-of-recent-calls) |
+| [2336-smallest-number-in-infinite-set](https://github.com/MayukhFired/LeetCode/tree/master/2336-smallest-number-in-infinite-set) |
 ## Combinatorics
 |  |
 | ------- |
@@ -666,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/MayukhFired/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [2336-smallest-number-in-infinite-set](https://github.com/MayukhFired/LeetCode/tree/master/2336-smallest-number-in-infinite-set) |
 ## Game Theory
 |  |
 | ------- |
@@ -755,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/MayukhFired/LeetCode/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2336-smallest-number-in-infinite-set](https://github.com/MayukhFired/LeetCode/tree/master/2336-smallest-number-in-infinite-set) |
 ## Interactive
 |  |
 | ------- |
