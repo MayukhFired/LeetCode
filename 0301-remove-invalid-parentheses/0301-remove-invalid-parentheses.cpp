@@ -1,5 +1,8 @@
 class Solution {
-    unordered_set<string>valid_set;
+    // 2-------------------------------1
+    // unordered_set<string>valid_set;
+    // 2-------------------------------1
+    vector<string>ans;
 private:
 // 1-------------------------------------------------------------------1
     // bool isValid(const string& s){
@@ -18,34 +21,61 @@ private:
     // }
 // 1--------------------------------------------------------------------1
 
-    void dfs(const string& s , int index , int rem_left , int rem_right , int balance , string current_str){
-        if(index == s.length()){
-            if(rem_left == 0 && rem_right == 0 && balance == 0){
-                valid_set.insert(current_str);
+// 3------------------------------------------------------------------------------------------------------------3
+    // void dfs(const string& s , int index , int rem_left , int rem_right , int balance , string current_str){
+    //     if(index == s.length()){
+    //         if(rem_left == 0 && rem_right == 0 && balance == 0){
+    //             valid_set.insert(current_str);
+    //         }
+    //         return;
+    //     }
+
+    //     if(balance < 0){
+    //         return;
+    //     }
+
+    //     char c = s[index];
+
+    //     if(c == '(' && rem_left > 0){
+    //         dfs(s , index + 1 , rem_left - 1 , rem_right , balance , current_str);
+    //     }else if(c == ')' && rem_right > 0){
+    //         dfs(s , index + 1 , rem_left , rem_right - 1 , balance , current_str);
+    //     }
+
+    //     if(c == '('){
+    //         dfs(s , index + 1 , rem_left , rem_right , balance + 1 , current_str + c);
+    //     }else if(c == ')'){
+    //         dfs(s , index + 1 , rem_left , rem_right , balance - 1 , current_str + c);
+    //     }else{
+    //         dfs(s , index + 1 , rem_left , rem_right , balance , current_str + c);
+    //     }
+    // }
+// 3----------------------------------------------------------------------------------------------------------3
+
+    void dfs(string s , int start , int last , int open , int close){
+        int balance = 0;
+
+        for(int i = 0; i < s.size(); i++){
+            if(s[i] == open) balance++;
+            if(s[i] == close) balance--;
+            if(balance >= 0) continue;
+
+            for(int j = last; j <= i; j++){
+                if(s[j] == close && (j == last || s[j - 1] != close)){
+                    dfs(s.substr(0 , j) + s.substr(j + 1) , i , j , open , close);
+                }
             }
             return;
         }
 
-        if(balance < 0){
-            return;
-        }
-
-        char c = s[index];
-
-        if(c == '(' && rem_left > 0){
-            dfs(s , index + 1 , rem_left - 1 , rem_right , balance , current_str);
-        }else if(c == ')' && rem_right > 0){
-            dfs(s , index + 1 , rem_left , rem_right - 1 , balance , current_str);
-        }
-
-        if(c == '('){
-            dfs(s , index + 1 , rem_left , rem_right , balance + 1 , current_str + c);
-        }else if(c == ')'){
-            dfs(s , index + 1 , rem_left , rem_right , balance - 1 , current_str + c);
+        reverse(s.begin() , s.end());
+        if(open == '('){
+            dfs(s , 0 , 0 , ')' , '(');
         }else{
-            dfs(s , index + 1 , rem_left , rem_right , balance , current_str + c);
+            ans.push_back(s);
         }
     }
+
 public:
     vector<string> removeInvalidParentheses(string s) {
     // 1-----------------------------------------------------------------1
@@ -95,23 +125,26 @@ public:
         // return result.empty() ? vector<string> {""} : result;
     // 1---------------------------------------------------------------------------------1
 
-        int rem_left = 0;
-        int rem_right = 0;
+    // 2--------------------------------------------------------------------2
+        // int rem_left = 0, rem_right = 0;
 
-        for(char c : s){
-            if(c == '('){
-                rem_left++;
-            }else if(c == ')'){
-                if(rem_left > 0){
-                    rem_left--;
-                }else{
-                    rem_right++;
-                }
-            }
-        }
-        valid_set.clear();
-        dfs(s , 0 , rem_left , rem_right , 0 , "");
+        // // Calculate minimum unmatched parentheses to remove
+        // for (char c : s) {
+        //     if (c == '(') {
+        //         rem_left++;
+        //     } else if (c == ')') {
+        //         if (rem_left > 0) rem_left--;
+        //         else rem_right++;
+        //     }
+        // }
 
-        return vector<string>(valid_set.begin() , valid_set.end());
+        // valid_set.clear();
+        // dfs(s, 0, rem_left, rem_right, 0, "");
+        
+        // return std::vector<std::string>(valid_set.begin(), valid_set.end());
+    // 2----------------------------------------------------------------------2
+
+        dfs(s , 0 , 0 , '(' , ')');
+        return ans;
     }
 };
