@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/MayukhFired/LeetCode/tree/master/1140-stone-game-ii) |
 | [1207-unique-number-of-occurrences](https://github.com/MayukhFired/LeetCode/tree/master/1207-unique-number-of-occurrences) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
+| [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MayukhFired/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1386-cinema-seat-allocation](https://github.com/MayukhFired/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/MayukhFired/LeetCode/tree/master/1406-stone-game-iii) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/MayukhFired/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/MayukhFired/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/MayukhFired/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
+| [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/MayukhFired/LeetCode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MayukhFired/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/MayukhFired/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
@@ -389,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/MayukhFired/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0704-binary-search](https://github.com/MayukhFired/LeetCode/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/MayukhFired/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/MayukhFired/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/MayukhFired/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -591,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-sort-array-by-parity](https://github.com/MayukhFired/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1096-brace-expansion-ii](https://github.com/MayukhFired/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MayukhFired/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MayukhFired/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -628,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/MayukhFired/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/MayukhFired/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
+| [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -738,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/MayukhFired/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1046-last-stone-weight](https://github.com/MayukhFired/LeetCode/tree/master/1046-last-stone-weight) |
+| [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/MayukhFired/LeetCode/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2336-smallest-number-in-infinite-set](https://github.com/MayukhFired/LeetCode/tree/master/2336-smallest-number-in-infinite-set) |
