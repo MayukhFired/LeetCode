@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/MayukhFired/LeetCode/tree/master/0043-multiply-strings) |
 | [0058-length-of-last-word](https://github.com/MayukhFired/LeetCode/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
+| [0072-edit-distance](https://github.com/MayukhFired/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/MayukhFired/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/MayukhFired/LeetCode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/MayukhFired/LeetCode/tree/master/0151-reverse-words-in-a-string) |
@@ -501,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/MayukhFired/LeetCode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/MayukhFired/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/MayukhFired/LeetCode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/MayukhFired/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/MayukhFired/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MayukhFired/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MayukhFired/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
