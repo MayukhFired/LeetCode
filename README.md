@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/MayukhFired/LeetCode/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/MayukhFired/LeetCode/tree/master/0399-evaluate-division) |
 | [0443-string-compression](https://github.com/MayukhFired/LeetCode/tree/master/0443-string-compression) |
+| [0482-license-key-formatting](https://github.com/MayukhFired/LeetCode/tree/master/0482-license-key-formatting) |
 | [0520-detect-capital](https://github.com/MayukhFired/LeetCode/tree/master/0520-detect-capital) |
 | [0649-dota2-senate](https://github.com/MayukhFired/LeetCode/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/MayukhFired/LeetCode/tree/master/0678-valid-parenthesis-string) |
