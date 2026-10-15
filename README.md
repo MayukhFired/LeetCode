@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0520-detect-capital](https://github.com/MayukhFired/LeetCode/tree/master/0520-detect-capital) |
 | [0649-dota2-senate](https://github.com/MayukhFired/LeetCode/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/MayukhFired/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0831-masking-personal-information](https://github.com/MayukhFired/LeetCode/tree/master/0831-masking-personal-information) |
 | [0856-score-of-parentheses](https://github.com/MayukhFired/LeetCode/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/MayukhFired/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/MayukhFired/LeetCode/tree/master/0940-distinct-subsequences-ii) |
