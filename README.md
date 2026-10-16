@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0520-detect-capital](https://github.com/MayukhFired/LeetCode/tree/master/0520-detect-capital) |
 | [0649-dota2-senate](https://github.com/MayukhFired/LeetCode/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/MayukhFired/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0796-rotate-string](https://github.com/MayukhFired/LeetCode/tree/master/0796-rotate-string) |
 | [0831-masking-personal-information](https://github.com/MayukhFired/LeetCode/tree/master/0831-masking-personal-information) |
 | [0856-score-of-parentheses](https://github.com/MayukhFired/LeetCode/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/MayukhFired/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MayukhFired/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/MayukhFired/LeetCode/tree/master/0459-repeated-substring-pattern) |
+| [0796-rotate-string](https://github.com/MayukhFired/LeetCode/tree/master/0796-rotate-string) |
 ## Binary Search
 |  |
 | ------- |
