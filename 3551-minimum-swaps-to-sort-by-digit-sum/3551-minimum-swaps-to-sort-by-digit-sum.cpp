@@ -26,25 +26,40 @@ public:
         for(int pos = 0; pos < n; pos++){
             targetPos[indices[pos]] = pos;
         }
-        vector<int> parent(n);
-        iota(parent.begin() , parent.end() , 0);
-        int components = n;
+    // 1------------------------------------------------------------------------1
+        // vector<int> parent(n);
+        // iota(parent.begin() , parent.end() , 0);
+        // int components = n;
 
-        function<int(int)> find = [&](int x) -> int{
-            if(parent[x] != x){
-                parent[x] = find(parent[x]);
-            }
-            return parent[x];
-        };
+        // function<int(int)> find = [&](int x) -> int{
+        //     if(parent[x] != x){
+        //         parent[x] = find(parent[x]);
+        //     }
+        //     return parent[x];
+        // };
+        // for(int i = 0; i < n; i++){
+        //     int ri = find(i);
+        //     int rj = find(targetPos[i]);
+        //     if(ri != rj){
+        //         parent[ri] = rj;
+        //         components--;
+        //     }
+        // }
+        // return n - components;
+    // 1------------------------------------------------------------------------1
 
+        vector<int> visited(n);
+        int cycles = 0;
         for(int i = 0; i < n; i++){
-            int ri = find(i);
-            int rj = find(targetPos[i]);
-            if(ri != rj){
-                parent[ri] = rj;
-                components--;
+            if(!visited[i]){
+                cycles++;
+                int j = i;
+                while(!visited[j]){
+                    visited[j] = true;
+                    j = targetPos[j];
+                }
             }
         }
-        return n - components;
+        return n - cycles;
     }
 };
