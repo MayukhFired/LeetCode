@@ -10,31 +10,40 @@ class Solution:
                     fac.append(n // x)
         target = sorted(nums)
 
-        def kmp(nums1 , nums2):
-            n , m = len(nums1) , len(nums2)
-            pi = [0] * m
-            j = 0
+    # 1--------------------------------------------------------1
+        # def kmp(nums1 , nums2):
+        #     n , m = len(nums1) , len(nums2)
+        #     pi = [0] * m
+        #     j = 0
 
-            for i in range(1 , m):
-                while j > 0 and nums2[i] != nums2[j]:
-                    j = pi[j - 1]
-                if nums2[i] == nums2[j]:
-                    j += 1
-                pi[i] = j
+        #     for i in range(1 , m):
+        #         while j > 0 and nums2[i] != nums2[j]:
+        #             j = pi[j - 1]
+        #         if nums2[i] == nums2[j]:
+        #             j += 1
+        #         pi[i] = j
             
-            j = 0
+        #     j = 0
 
-            for i in range(n):
-                while j > 0 and nums1[i] != nums2[j]:
-                    j = pi[j - 1]
-                if nums1[i] == nums2[j]:
-                    j += 1
-                if j == m:
-                    return True
-            return False
+        #     for i in range(n):
+        #         while j > 0 and nums1[i] != nums2[j]:
+        #             j = pi[j - 1]
+        #         if nums1[i] == nums2[j]:
+        #             j += 1
+        #         if j == m:
+        #             return True
+        #     return False
         
+        # def check(nums1 , nums2):
+        #     return kmp(nums1 + nums1 , nums2)
+    # 1----------------------------------------------------------------------------1
+
         def check(nums1 , nums2):
-            return kmp(nums1 + nums1 , nums2)
+            L = len(nums1)
+            for i in range(L - 1):
+                if nums1[i] > nums1[i + 1]:
+                    return nums1[i + 1 :] + nums1[: i + 1] == nums2
+            return nums1 == nums2
         
         ans = 0
         for d in fac:
