@@ -9,16 +9,17 @@ struct ListNode* oddEvenList(struct ListNode* head) {
     if(head == NULL || head->next == NULL){
         return head;
     }
+
     struct ListNode* odd = head;
     struct ListNode* even = head->next;
-    struct ListNode* evenstart = head->next;
-    while(even != NULL && even->next != NULL){
-        odd->next = even->next;
-        even->next = even->next->next;
+    struct ListNode* evenHead = even;
 
+    while(even && even->next){
+        odd->next = even->next;
         odd = odd->next;
+        even->next = even->next->next;
         even = even->next;
     }
-    odd->next = evenstart;
+    odd->next = evenHead;
     return head;
 }
