@@ -4,16 +4,17 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def oddEvenList(self, head: ListNode | None) -> ListNode | None:
         if head == None or head.next == None:
             return head
         odd = head
         even = head.next
-        evenstart = head.next
-        while even != None and even.next != None:
+        evenHead = even
+
+        while even and even.next:
             odd.next = even.next
-            even.next = even.next.next
             odd = odd.next
+            even.next = even.next.next
             even = even.next
-        odd.next = evenstart
+        odd.next = evenHead
         return head
