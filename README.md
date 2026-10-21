@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/MayukhFired/LeetCode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/MayukhFired/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/MayukhFired/LeetCode/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/MayukhFired/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [0179-largest-number](https://github.com/MayukhFired/LeetCode/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/MayukhFired/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/MayukhFired/LeetCode/tree/master/0301-remove-invalid-parentheses) |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/MayukhFired/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MayukhFired/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0168-excel-sheet-column-title](https://github.com/MayukhFired/LeetCode/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/MayukhFired/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [0189-rotate-array](https://github.com/MayukhFired/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/MayukhFired/LeetCode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/MayukhFired/LeetCode/tree/master/0367-valid-perfect-square) |
