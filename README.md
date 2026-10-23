@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-unique-number-of-occurrences](https://github.com/MayukhFired/LeetCode/tree/master/1207-unique-number-of-occurrences) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/MayukhFired/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1354-construct-target-array-with-multiple-sums](https://github.com/MayukhFired/LeetCode/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MayukhFired/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-find-smallest-letter-greater-than-target](https://github.com/MayukhFired/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [1004-max-consecutive-ones-iii](https://github.com/MayukhFired/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/MayukhFired/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/MayukhFired/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MayukhFired/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -732,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-image-overlap](https://github.com/MayukhFired/LeetCode/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/MayukhFired/LeetCode/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/MayukhFired/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MayukhFired/LeetCode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/MayukhFired/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2352-equal-row-and-column-pairs](https://github.com/MayukhFired/LeetCode/tree/master/2352-equal-row-and-column-pairs) |
