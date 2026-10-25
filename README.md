@@ -463,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/MayukhFired/LeetCode/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/MayukhFired/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/MayukhFired/LeetCode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/MayukhFired/LeetCode/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/MayukhFired/LeetCode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/MayukhFired/LeetCode/tree/master/0062-unique-paths) |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/MayukhFired/LeetCode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/MayukhFired/LeetCode/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/MayukhFired/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/MayukhFired/LeetCode/tree/master/0268-missing-number) |
