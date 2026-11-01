@@ -15,6 +15,9 @@ int* findClosestElements(int* arr, int arrSize, int k, int x, int* returnSize) {
     }
 
     int* res = (int*)malloc(k * sizeof(int));
+    if(res == NULL){
+        return NULL;
+    }
     for(int i = 0; i < k; i++){
         res[i] = arr[left + i];
     }
