@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-unique-number-of-occurrences](https://github.com/MayukhFired/LeetCode/tree/master/1207-unique-number-of-occurrences) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/MayukhFired/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1354-construct-target-array-with-multiple-sums](https://github.com/MayukhFired/LeetCode/tree/master/1354-construct-target-array-with-multiple-sums) |
@@ -785,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/MayukhFired/LeetCode/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/MayukhFired/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MayukhFired/LeetCode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/MayukhFired/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -834,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
+| [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [2029-stone-game-ix](https://github.com/MayukhFired/LeetCode/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/MayukhFired/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -919,6 +922,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/MayukhFired/LeetCode/tree/master/0841-keys-and-rooms) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/MayukhFired/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MayukhFired/LeetCode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/MayukhFired/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/MayukhFired/LeetCode/tree/master/3310-remove-methods-from-project) |
@@ -936,6 +940,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-brace-expansion-ii](https://github.com/MayukhFired/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/MayukhFired/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MayukhFired/LeetCode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MayukhFired/LeetCode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [3310-remove-methods-from-project](https://github.com/MayukhFired/LeetCode/tree/master/3310-remove-methods-from-project) |
@@ -1040,6 +1045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/MayukhFired/LeetCode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/MayukhFired/LeetCode/tree/master/0547-number-of-provinces) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/MayukhFired/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/MayukhFired/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/MayukhFired/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
