@@ -25,21 +25,48 @@ class Solution:
         # return count
     # 1-------------------------------------------------------------------------------------------------1
 
+    # 2------------------------------------------------------------------------------------------------2
+        # count = 0
+        # m = len(grid)
+        # n = len(grid[0])
+        # rowCounts = [0] * len(grid)
+        # colCounts = [0] * len(grid[0])
+
+        # for row in range(m):
+        #     for col in range(n):
+        #         if grid[row][col] == 1:
+        #             rowCounts[row] += 1
+        #             colCounts[col] += 1
+        
+        # for row in range(m):
+        #     for col in range(n):
+        #         if grid[row][col] == 1:
+        #             if rowCounts[row] > 1 or colCounts[col] > 1:
+        #                 count += 1
+        # return count
+    # 2------------------------------------------------------------------------------------------------2
+
         count = 0
         m = len(grid)
         n = len(grid[0])
-        rowCounts = [0] * len(grid)
-        colCounts = [0] * len(grid[0])
+        colCount = [0] * n
+        InRow = [-1] * m
 
         for row in range(m):
+            countRow = 0
             for col in range(n):
-                if grid[row][col] == 1:
-                    rowCounts[row] += 1
-                    colCounts[col] += 1
+                if grid[row][col]:
+                    count += 1
+                    countRow += 1
+                    colCount[col] += 1
+                    if countRow == 1:
+                        InRow[row] = col
+                    else:
+                        InRow[row] = -1
         
         for row in range(m):
-            for col in range(n):
-                if grid[row][col] == 1:
-                    if rowCounts[row] > 1 or colCounts[col] > 1:
-                        count += 1
+            col = InRow[row]
+            if col != -1 and colCount[col] == 1:
+                count -= 1
+        
         return count
