@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/MayukhFired/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/MayukhFired/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/MayukhFired/LeetCode/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/MayukhFired/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/MayukhFired/LeetCode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/MayukhFired/LeetCode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/MayukhFired/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -605,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/MayukhFired/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/MayukhFired/LeetCode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/MayukhFired/LeetCode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/MayukhFired/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/MayukhFired/LeetCode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/MayukhFired/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/MayukhFired/LeetCode/tree/master/0115-distinct-subsequences) |
@@ -789,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/MayukhFired/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/MayukhFired/LeetCode/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/MayukhFired/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0835-image-overlap](https://github.com/MayukhFired/LeetCode/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/MayukhFired/LeetCode/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
