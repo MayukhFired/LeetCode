@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/MayukhFired/LeetCode/tree/master/1046-last-stone-weight) |
 | [1051-height-checker](https://github.com/MayukhFired/LeetCode/tree/master/1051-height-checker) |
 | [1140-stone-game-ii](https://github.com/MayukhFired/LeetCode/tree/master/1140-stone-game-ii) |
+| [1200-minimum-absolute-difference](https://github.com/MayukhFired/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1207-unique-number-of-occurrences](https://github.com/MayukhFired/LeetCode/tree/master/1207-unique-number-of-occurrences) |
 | [1254-number-of-closed-islands](https://github.com/MayukhFired/LeetCode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/MayukhFired/LeetCode/tree/master/1260-shift-2d-grid) |
@@ -730,6 +731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/MayukhFired/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1051-height-checker](https://github.com/MayukhFired/LeetCode/tree/master/1051-height-checker) |
 | [1096-brace-expansion-ii](https://github.com/MayukhFired/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1200-minimum-absolute-difference](https://github.com/MayukhFired/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1268-search-suggestions-system](https://github.com/MayukhFired/LeetCode/tree/master/1268-search-suggestions-system) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/MayukhFired/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/MayukhFired/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
