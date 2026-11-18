@@ -21,7 +21,7 @@ int minChanges(char* s) {
     // return min_change;
 // 1--------------------------------------------------------------1
     int min_change = 0;
-    for(int i = 0; i < strlen(s); i += 2){
+    for(int i = 0; s[i] != '\0'; i += 2){
         if(s[i] != s[i + 1]){
             min_change++;
         }
