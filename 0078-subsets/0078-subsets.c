@@ -3,36 +3,66 @@
  * The sizes of the arrays are returned as *returnColumnSizes array.
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
-int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
-    int totalSubsets = 1 << numsSize;
-    *returnSize = totalSubsets;
 
-    int** output = (int**)malloc(totalSubsets * sizeof(int*));
-    *returnColumnSizes = (int*)malloc(totalSubsets * sizeof(int));
-    output[0] = NULL;
-    (*returnColumnSizes)[0] = 0;
-    int currentCount = 1;
+void backtrack(int first , int* curr , int currLen , int* nums , int numsSize , int** output , int* returnColumnSizes , int* count){
+    output[*count] = (int*)malloc(currLen * sizeof(int));
 
-    for(int i = 0; i < numsSize; i++){
-        int num = nums[i];
-        int existingCount = currentCount;
-
-        for(int j = 0; j < existingCount; j++){
-            int oldLen = (*returnColumnSizes)[j];
-            int newLen = oldLen + 1;
-
-            int* subset = (int*)malloc(newLen * sizeof(int));
-
-            if(oldLen > 0){
-                memcpy(subset , output[j] , oldLen * sizeof(int));
-            }
-
-            subset[oldLen] = num;
-            output[currentCount] = subset;
-            (*returnColumnSizes)[currentCount] = newLen;
-            currentCount++;
-        }
+    if(currLen > 0){
+        memcpy(output[*count] , curr , currLen * sizeof(int));
     }
 
+    returnColumnSizes[*count] = currLen;
+    (*count)++;
+
+    for(int i = first; i < numsSize; i++){
+        curr[currLen] = nums[i];
+        backtrack(i + 1 , curr , currLen + 1 , nums , numsSize , output , returnColumnSizes , count);
+    }
+}
+
+int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
+// 1-----------------------------------------------------------------------------1
+    // int totalSubsets = 1 << numsSize;
+    // *returnSize = totalSubsets;
+
+    // int** output = (int**)malloc(totalSubsets * sizeof(int*));
+    // *returnColumnSizes = (int*)malloc(totalSubsets * sizeof(int));
+    // output[0] = NULL;
+    // (*returnColumnSizes)[0] = 0;
+    // int currentCount = 1;
+
+    // for(int i = 0; i < numsSize; i++){
+    //     int num = nums[i];
+    //     int existingCount = currentCount;
+
+    //     for(int j = 0; j < existingCount; j++){
+    //         int oldLen = (*returnColumnSizes)[j];
+    //         int newLen = oldLen + 1;
+
+    //         int* subset = (int*)malloc(newLen * sizeof(int));
+
+    //         if(oldLen > 0){
+    //             memcpy(subset , output[j] , oldLen * sizeof(int));
+    //         }
+
+    //         subset[oldLen] = num;
+    //         output[currentCount] = subset;
+    //         (*returnColumnSizes)[currentCount] = newLen;
+    //         currentCount++;
+    //     }
+    // }
+
+    // return output;
+// 1---------------------------------------------------------------------------1
+    int totalSubsets = 1 << numsSize;
+    *returnSize = totalSubsets;
+    int** output = (int**)malloc(totalSubsets * sizeof(int*));
+    *returnColumnSizes = (int*)malloc(totalSubsets * sizeof(int));
+    int* curr = (int*)malloc(numsSize * sizeof(int));
+    int count = 0;
+
+    backtrack(0 , curr , 0 , nums, numsSize , output , *returnColumnSizes ,&count);
+    free(curr);
+    
     return output;
 }
