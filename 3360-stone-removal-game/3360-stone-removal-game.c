@@ -1,0 +1,11 @@
+bool canAliceWin(int n) {
+    int take = 10;
+    int k = 0;
+
+    while(n >= take) {
+        n -= take;
+        take--;
+        k++;
+    }
+    return k % 2 == 1;
+}
