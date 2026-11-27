@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/MayukhFired/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/MayukhFired/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/MayukhFired/LeetCode/tree/master/0228-summary-ranges) |
+| [0229-majority-element-ii](https://github.com/MayukhFired/LeetCode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/MayukhFired/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/MayukhFired/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/MayukhFired/LeetCode/tree/master/0283-move-zeroes) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/MayukhFired/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/MayukhFired/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/MayukhFired/LeetCode/tree/master/0219-contains-duplicate-ii) |
+| [0229-majority-element-ii](https://github.com/MayukhFired/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/MayukhFired/LeetCode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -771,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/MayukhFired/LeetCode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/MayukhFired/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/MayukhFired/LeetCode/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/MayukhFired/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/MayukhFired/LeetCode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/MayukhFired/LeetCode/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/MayukhFired/LeetCode/tree/master/0414-third-maximum-number) |
@@ -929,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/MayukhFired/LeetCode/tree/master/0229-majority-element-ii) |
 | [1267-count-servers-that-communicate](https://github.com/MayukhFired/LeetCode/tree/master/1267-count-servers-that-communicate) |
 | [1657-determine-if-two-strings-are-close](https://github.com/MayukhFired/LeetCode/tree/master/1657-determine-if-two-strings-are-close) |
 | [2029-stone-game-ix](https://github.com/MayukhFired/LeetCode/tree/master/2029-stone-game-ix) |
@@ -1218,6 +1222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/MayukhFired/LeetCode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/MayukhFired/LeetCode/tree/master/0229-majority-element-ii) |
 ## Bucket Sort
 |  |
 | ------- |
