@@ -31,24 +31,53 @@ class Solution:
         
         # return solve(n - 1, m - 1)
     # 1----------------------------------------------------------------------1
+
+    # 2----------------------------------------------------------------------2
+        # n = len(s)
+        # m = len(p)
+        # dp = [[False] * (m + 1) for _ in range(n + 1)]
+        # dp[0][0] = True
+
+        # for j in range(1 , m + 1):
+        #     if p[j - 1] == '*':
+        #         dp[0][j] = dp[0][j - 1]
+        #     else:
+        #         dp[0][j] = False
+
+        # for i in range(1 , n + 1):
+        #     for j in range(1 , m + 1):
+        #         if p[j -1] == s[i - 1] or p[j - 1] == '?':
+        #             dp[i][j] = dp[i - 1][j - 1]
+        #         elif p[j - 1] == '*':
+        #             dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
+        #         else:
+        #             dp[i][j] = False
+        
+        # return dp[n][m]
+    # 2--------------------------------------------------------------------2
+        i = 0
+        j = 0
+        startIdx = -1
+        matchIdx = 0
         n = len(s)
         m = len(p)
-        dp = [[False] * (m + 1) for _ in range(n + 1)]
-        dp[0][0] = True
 
-        for j in range(1 , m + 1):
-            if p[j - 1] == '*':
-                dp[0][j] = dp[0][j - 1]
+        while i < n:
+            if j < m and (p[j] == s[i] or p[j] == '?'):
+                i += 1
+                j += 1
+            elif j < m and p[j] == '*':
+                startIdx = j
+                matchIdx = i
+                j += 1
+            elif startIdx != -1:
+                j = startIdx + 1
+                matchIdx += 1
+                i = matchIdx
             else:
-                dp[0][j] = False
-
-        for i in range(1 , n + 1):
-            for j in range(1 , m + 1):
-                if p[j -1] == s[i - 1] or p[j - 1] == '?':
-                    dp[i][j] = dp[i - 1][j - 1]
-                elif p[j - 1] == '*':
-                    dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
-                else:
-                    dp[i][j] = False
+                return False
         
-        return dp[n][m]
+        while j < m and p[j] == '*':
+            j += 1
+
+        return j == m
